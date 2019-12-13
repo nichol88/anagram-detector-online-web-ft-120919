@@ -27,9 +27,9 @@ class Anagram
     # returns hash of character count
     h = {}
     word.each_char { |chr|
-      h[chr] = word.count(chr)  
+      h[chr] = word.count(chr)
     }
-    h
+    h.sort
   end
 
 
