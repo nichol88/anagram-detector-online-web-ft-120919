@@ -11,7 +11,11 @@ class Anagram
     # check for match in each item
 
     array.each{ |w|
-      
+
+      # conditions:
+      # w must contain one and only one of each letter in @word
+
+
     }
 
   end
