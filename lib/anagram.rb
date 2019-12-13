@@ -7,7 +7,7 @@ class Anagram
   end
 
   def match(array)
-
+    a = []
     # check for match in each item
     array.each{ |w|
       if char_count(w) == char_count(@word)
