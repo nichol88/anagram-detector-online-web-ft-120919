@@ -9,8 +9,10 @@ class Anagram
   def match(array)
 
     # check for match in each item
-    array.collect{ |w|
-      char_count(w) == char_count(@word)
+    array.each{ |w|
+      if char_count(w) == char_count(@word)
+        a.push(w)
+      end
     }
 
   end
