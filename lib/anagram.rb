@@ -23,14 +23,12 @@ class Anagram
 
   private
 
-  def char_count(word)
-    # returns hash of character count
+  def char_count(word) # returns sorted hash of character count
     h = {}
     word.each_char { |chr|
       h[chr] = word.count(chr)
     }
     h.sort
   end
-
 
 end
