@@ -14,7 +14,7 @@ class Anagram
         a.push(w)
       end
     }
-
+    a
   end
 
   private
