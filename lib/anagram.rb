@@ -8,6 +8,12 @@ class Anagram
 
   def match(array)
 
+    # check for match in each item
+
+    array.each{ |w|
+      
+    }
+
   end
 
 end
